@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="./action.html">
+
+    <h1 style=" background-color: aqua;">     GENERAL BUS PASS APPLICATION      </h1>
+    
+    <fieldset>
+        
+        <legend style="background-color: rgb(86, 64, 248); color: white;">APPLICAION DETAILS</legend>
+    
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;
+
+    <label for="Guardians"> father/Guardians name:</label>
+    <input type="text" name="Guardians" id="Guardians"> <br><br> 
+
+    <label for="dob"> date of birth: </label>&emsp;
+    <input type="date" name="dob" id="dob" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}">&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;
+
+    <label for="gender">gender:</label>
+    
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="female">Female</label>
+    +
+    <input type="radio" name="gender" id="female" value="female"><br><br>
+
+    <label for="age"> age as on:</label>
+    <input type="text" name="age" id="age" placeholder="00 years- 00 months- 00 days">&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;
+
+    <label for="adhar"> aadhar no:</label>
+    <input type="tel" name="adhar" id="adhar" placeholder="1111-2222-3333-4444" maxlength="12"><br><br>
+
+    <label for="mob"> Mobile no:</label>
+    <input type="number" name="mob" id="mob" placeholder="9999999999" maxlength="10">&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;
+
+
+    <label for="email">email:</label>
+    <input type="email" name="email" id="email" placeholder="@gmail.com"><br><br>
+
+    <Label for="photo">photo:</Label>
+    <input type="file" name="photo" id="email">
+
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend style="background-color: rgb(86, 64, 248); color: white;">RESIDENTIAL ADDRESS DETAILS</legend>
+        <label for="address">applicatin address:</label>
+        <textarea name="address" id="address" rows="5" cols="21"></textarea>&emsp;&ensp;
+
+        <label for="district">district:</label>
+        <select name="district" id="district">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+
+        </select><br><br>
+
+        <label for="mandal">mandal:</label>&emsp;&emsp;&emsp;&emsp;
+        <select name="mandal" id="mandal">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+        <label for="village">village:</label>
+        <select name="village" id="village">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select><br><br>
+
+        <label for="pincode">pincode:</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="number" name="pincode" id="pincode">
+
+    </fieldset><br><br>
+    <fieldset>
+        <legend style="background-color: rgb(86, 64, 248); color: white;">PASS TYPE</legend>
+        
+        <label for="city">city:</label>
+        <select name="city" id="city">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+
+        </select><br><br>
+
+        <label for="pass">pass type:</label>
+        <select name="pass" id="pass">
+            <option value="----select----">----select----</option>
+            <option value="student">student</option>
+            <option value="senior citizen">senior citizen</option>
+            <option value="women-cota">women-cota</option>
+
+        </select>
+
+    </fieldset><br><br>
+    
+    <fieldset>
+        <legend style="background-color: rgb(86, 64, 248); color: white;">Mode of payment & pass collection</legend>
+
+        <label for="pass">pass type:</label>
+        <select name="pass" id="pass">
+            <option value="select">select payment mode</option>
+            <option value="student">student</option>
+            <option value="senior citizen">senior citizen</option>
+            <option value="women-cota">women-cota</option>
+        </select><br><br>
+
+            <label for="passd">pass delivery mode:</label>
+            <select name="passd" id="passd">
+                <option value="selectd">select pass deleivery mode</option>
+                <option value="1">email</option>
+                <option value="2">message</option>
+                <option value="3">post</option>
+            </select><br><br>
+
+            <label for="collect">pass delivery mode:</label>
+            <select name="collect" id="collect">
+                <option value="selectdc">center at which you want to collect</option>
+                <option value="a">email</option>
+                <option value="b">message</option>
+                <option value="c">post</option>
+            </select>
+
+    </fieldset>
+    <center><input type="submit" name="" id=""></center>
+</form>
+    
+</body>
+</html>
